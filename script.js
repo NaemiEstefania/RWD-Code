@@ -1,7 +1,6 @@
-// Minimaler JS-Code – so einfach wie möglich.
 
-// Einfacher Farbwechsel für das große Produktbild.
-// Du kannst hier eigene Bildpfade eintragen.
+// Einfacher Farbwechsel für das große Produktbild
+// Muss noch eigene Bildpfade eintragen 
 
 const swatches = document.querySelectorAll(".swatch");
 const variantImage = document.getElementById("variant-image");

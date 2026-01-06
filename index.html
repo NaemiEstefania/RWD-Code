@@ -11,7 +11,11 @@
   <!-- Obere Volvo-Leiste -->
   <header class="top-bar">
     <div class="top-bar-inner">
-      <span class="top-bar-logo">V O L V O</span>
+      <img 
+      src="images/new-volvo-logo.png" 
+      alt="Volvo Logo" 
+      class="top-bar-logo"
+    >
     </div>
   </header>
 
@@ -19,11 +23,11 @@
     <!-- Hero / Intro -->
     <section class="section hero">
       <div class="container hero-inner">
-        <p class="eyebrow">Nur für kurze Zeit.</p>
+       
         <h1 class="hero-title">Dein Scandinavian Glow Up.</h1>
 
         <div class="hero-product">
-          <!-- Ersetze das Bild durch dein eigenes -->
+          <!-- Bild im Hero -->
           <img
             src="images/tubegrey.png"
             alt="Scandinavian Lip Treatment Tube"
@@ -55,7 +59,7 @@
       <div class="container">
         <div class="image-frame image-large">
           <img
-            src="images/Lipsbig.png"
+            src="images/Lipsbighell.png"
             alt="Lippen Nahaufnahme"
           />
         </div>
@@ -63,42 +67,65 @@
     </section>
 
     <!-- Claim + Kennzahlen -->
-    <section class="section section-metrics">
-      <div class="container">
-        <p class="small-eyebrow">VOLVO CARE. Wo Klarheit auf Pflege trifft.</p>
-        <h2>
-          Minimalistisch im Design, präzise in der Wirkung – inspiriert von
-          skandinavischer Klarheit und moderner Hautpflegeforschung.
-        </h2>
+<section class="section section-metrics">
+  <div class="container">
+    <p class="small-eyebrow">VOLVO CARE. Wo Klarheit auf Pflege trifft.</p>
 
-        <div class="metrics-grid">
-          <article class="metric">
-            <p class="metric-label">Feuchtigkeit</p>
-            <p class="metric-value">12<span>h</span></p>
-          </article>
-          <article class="metric">
-            <p class="metric-label">Aktive Wirkstoffe</p>
-            <p class="metric-value">24</p>
-          </article>
-          <article class="metric">
-            <p class="metric-label">Vegan</p>
-            <p class="metric-value">100<span>%</span></p>
-          </article>
-          <article class="metric">
-            <p class="metric-label">LSF</p>
-            <p class="metric-value">30<span>hoch</span></p>
-          </article>
-          <article class="metric">
-            <p class="metric-label">Verpackungsmaterial</p>
-            <p class="metric-value">80<span>% recycelt</span></p>
-          </article>
-          <article class="metric">
-            <p class="metric-label">pH-Wert</p>
-            <p class="metric-value">5.5</p>
-          </article>
+    <h2>
+      Minimalistisch im Design, präzise in der Wirkung – inspiriert von skandinavischer Klarheit und moderner Hautpflegeforschung.
+    </h2>
+
+    <div class="metrics-grid">
+
+      <article class="metric">
+        <p class="metric-label">Feuchtigkeit</p>
+        <div class="metric-value">
+          <span class="number">12</span>
+          <span class="unit">h</span>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <article class="metric">
+        <p class="metric-label">Aktive Wirkstoffe</p>
+        <div class="metric-value">
+          <span class="number">24</span>
+        </div>
+      </article>
+
+      <article class="metric">
+        <p class="metric-label">Vegan</p>
+        <div class="metric-value">
+          <span class="number">100</span>
+          <span class="unit">%</span>
+        </div>
+      </article>
+
+      <article class="metric">
+        <p class="metric-label">LSF</p>
+        <div class="metric-value">
+          <span class="number">30</span>
+          <span class="unit">hoch</span>
+        </div>
+      </article>
+
+      <article class="metric">
+        <p class="metric-label">Verpackungsmaterial – Recyclinganteil</p>
+        <div class="metric-value">
+          <span class="number">80</span>
+          <span class="unit">%</span>
+        </div>
+      </article>
+
+      <article class="metric">
+        <p class="metric-label">pH-Wert</p>
+        <div class="metric-value">
+          <span class="number">5.5</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
 
     <!-- Text links / Text rechts -->
     <section class="section section-two-column">
@@ -116,67 +143,81 @@
       </div>
     </section>
 
-    <!-- Produkt + 3 kleine Bilder -->
+    <!-- Produkt + 3 Bilder (pixelgenaues Grid) -->
     <section class="section section-gallery">
-      <div class="container">
-        <div class="gallery-main">
-          <div class="image-frame image-vertical">
-            <img
-              src="images/Tubenah.png"
-              alt="Lip Treatment Flakon"
-            />
-          </div>
-        </div>
+      <div class="container gallery-grid">
 
-        <div class="gallery-row">
-          <div class="image-frame image-square">
-            <img
-              src="images/texture-cream.png"
-              alt="Textur Creme"
-            />
-          </div>
-          <div class="image-frame image-square">
-            <img
-              src="images/ingredient-shea.png"
-              alt="Shea Butter"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Vorher / Nachher + Fakten -->
-    <section class="section section-result">
-      <div class="container result-grid">
-        <div class="image-frame image-result">
+        <!-- oben: große Tube (volle Breite) -->
+        <div class="image-frame image-tube">
           <img
-            src="images/lipsbeforeafter.png"
-            alt="Vorher Nachher Lippen"
+            src="images/Tubebeige.png"
+            alt="Lip Treatment Flakon"
           />
         </div>
 
-        <div class="result-text">
-          <h2>Für jeden Moment gemacht. So natürlich wie dein Lächeln.</h2>
-          <ul class="icon-list">
-            <li>97 % erleben weichere Lippen sofort nach der Anwendung*</li>
-            <li>100 % spüren nach 12 h Feuchtigkeit</li>
-            <li>87 % finden, dass der Glanz natürlich aussieht</li>
-          </ul>
-          <p class="result-footnote">
-            *Unbearbeitete Ergebnisse, basierend auf einer internen
-            Anwender*innen-Studie.
-          </p>
+        <!-- unten: zwei Bilder nebeneinander -->
+        <div class="image-frame image-square">
+          <img
+            src="images/TexturCreme.png"
+            alt="Textur Creme"
+          />
         </div>
+
+        <div class="image-frame image-square">
+          <img
+            src="images/SheaButter.png"
+            alt="Shea Butter"
+          />
+        </div>
+
       </div>
     </section>
+
+        <!-- Vorher / Nachher + Fakten -->
+        <section class="section section-result">
+        <div class="container result-grid">
+
+    <!-- Links: Überschrift -->
+    <h2 class="result-image-title result-title">
+      <span class="result-eyebrow">Für jeden Moment gemacht.</span>
+      So natürlich wie dein Lächeln.
+    </h2>
+
+    <!-- Links: Bild -->
+    <div class="image-frame image-result">
+      <img
+        src="images/lipsbeforeafterhell.png"
+        alt="Vorher Nachher Lippen"
+      />
+    </div>
+
+    <!-- Rechts: Graue Box (gleiche Höhe wie Bild) -->
+    <div class="result-text result-box">
+      <h3 class="result-box-title">Anwender*innen bestätigen</h3>
+
+      <ul class="icon-list">
+        <li>97 % erleben weichere Lippen sofort nach der Anwendung</li>
+        <li>100 % spüren nach 12 h Feuchtigkeit</li>
+        <li>87 % finden, dass der Glanz natürlich aussieht</li>
+      </ul>
+      <p class="result-description">
+        Erlebe den Unterschied zwischen trocken und seidig, für Lippen, die aussehen
+        wie sie sich anfühlen: <strong>gesund, gepflegt und unwiderstehlich.</strong>
+
+      </p>
+     
+    </div>
+
+  </div>
+</section>
+
 
     <!-- Großes Produkt mit Farbwahl -->
     <section class="section section-variant">
       <div class="container">
         <h2>Unsere Farbauswahl</h2>
         <p>
-          Zart, klar, nordisch – Rosé, Nude und transparenter Glanz in
-          harmonischer Balance.
+          Zart, klar, nordisch – Rosé, Nude und transparenter Glanz in harmonischer Balance.
         </p>
 
         <div class="variant-layout">
@@ -188,7 +229,7 @@
 
           <div class="image-frame image-large">
             <img
-              src="images/product-iceblock.png"
+              src="images/tubegrey.png"
               alt="Lip Treatment auf Eisblock"
               id="variant-image"
             />
@@ -224,7 +265,7 @@
       </div>
 
       <div class="footer-column">
-        <h3>Volvo Cars App</h3>
+        <h3>Volvo Care App</h3>
         <ul>
           <li><a href="#">App Store</a></li>
           <li><a href="#">Google Play</a></li>
@@ -244,3 +285,4 @@
   </footer>
 </body>
 </html>
+
